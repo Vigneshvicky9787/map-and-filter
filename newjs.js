@@ -8,8 +8,14 @@
 // arr.forEach(newadd);
 
 
-const ranks = [1 , 2 , 3];
+const ranks = [1 , 2 , 3 , 4];
 
-console.log(ranks.map((e,ind) => {
-  return e+1
-}))
+let newArr = ranks.map((e,index) => {
+  if (e % 2 === 0){
+    return e
+  }
+  else{
+    return 'none'
+  }
+})
+console.log(newArr)
