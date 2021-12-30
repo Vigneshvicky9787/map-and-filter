@@ -19,3 +19,17 @@ let newArr = ranks.map((e,index) => {
   }
 })
 console.log(newArr)
+
+
+// ------------------------------
+
+let newfilterArr = ranks.filter((e,index) => {
+  if (e % 2 === 0){
+    return e
+  }
+})
+console.log(newfilterArr)
+
+
+
+
