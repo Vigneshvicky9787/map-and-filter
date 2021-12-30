@@ -50,3 +50,4 @@ console.log(attendConcert)
 
 attendConcert.then((data) => console.log(data)) .catch((error) => console.log(error))
 
+console.log('hi')
